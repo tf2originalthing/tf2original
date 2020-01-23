@@ -1,0 +1,61 @@
+//
+// Team Fortress - Pyro Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"pyro"
+	"model"			"models/player/pyro.mdl"
+	"model_hwm"		"models/player/hwm/pyro.mdl"
+	"model_hands"	"models/weapons/c_models/c_pyro_arms.mdl"
+	"localize_name"	"TF_Class_Name_Pyro"
+	"speed_max"		"300"
+	"health_max"		"100"
+	"armor_max"		"150"
+	"armor_type"	"0.6"
+//	"health_max"		"175"
+//	"armor_max"		"0"
+	"init_armor"	"50"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+	"grenade2"		"TF_WEAPON_GRENADE_NAPALM"
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_FIREAXE"
+	"weapon2"		"TF_WEAPON_SHOTGUN_PYRO"
+	"weapon3"		"TF_WEAPON_FLAMETHROWER"
+	"weapon4"		"TF_WEAPON_INCINDIARY_CANNON"
+
+	//Thirdperson
+	"cameraoffset_forward"	"85"
+	"cameraoffset_right"	"25"
+	"cameraoffset_up"	"0"
+
+
+	AmmoMax
+	{
+		"TF_AMMO_SHELLS"	"40"
+		"TF_AMMO_ROCKETS"	"20"
+		"TF_AMMO_CELLS"		"200"
+		"TF_AMMO_NAILS"		"50"
+		"tf_ammo_grenades1"	"4"
+		"tf_ammo_grenades2"	"4"
+	}
+	
+	InitAmmo
+	{
+		"TF_AMMO_SHELLS"	"20"
+		"TF_AMMO_ROCKETS"	"5"
+		"TF_AMMO_CELLS"		"120"
+		"TF_AMMO_NAILS"		"0"
+		"tf_ammo_grenades1"	"2"
+		"tf_ammo_grenades2"	"2"
+	}
+
+	// Death Sounds
+	"sound_death"				"Pyro.Death"
+	"sound_crit_death"				"Pyro.CritDeath"
+	"sound_melee_death"			"Pyro.MeleeDeath"
+	"sound_explosion_death"			"Pyro.ExplosionDeath"		
+}

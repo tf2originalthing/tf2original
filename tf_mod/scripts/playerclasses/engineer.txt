@@ -1,0 +1,68 @@
+//
+// Team Fortress - Engineer Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"engineer"
+	"model"			"models/player/engineer.mdl"
+	"model_hwm"		"models/player/hwm/engineer.mdl"
+	"model_hands"		"models/weapons/c_models/c_engineer_arms.mdl"
+	"localize_name"	"TF_Class_Name_Engineer"
+	"speed_max"		"300"
+	"health_max"		"80"
+	"armor_max"		"50"
+	"armor_type"	"0.5"
+//	"health_max"		"125"
+//	"armor_max"		"0"
+	"init_armor"	"25"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+	"grenade2"		"TF_WEAPON_GRENADE_EMP"
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_WRENCH"
+	"weapon2"		"TF_WEAPON_RAILGUN"
+	"weapon3"		"TF_WEAPON_SUPERSHOTGUN_ENGINEER"
+	"weapon4"		"TF_WEAPON_PDA_ENGINEER_BUILD"
+	"weapon5"		"TF_WEAPON_PDA_ENGINEER_DESTROY"
+	
+	// Buildables
+	"buildable1"	"OBJ_SENTRYGUN"
+	"buildable2"	"OBJ_DISPENSER"
+	"buildable3"	"OBJ_TELEPORTER_ENTRANCE"
+	"buildable4"	"OBJ_TELEPORTER_EXIT"
+
+	//Thirdperson
+	"cameraoffset_forward"	"85"
+	"cameraoffset_right"	"25"
+	"cameraoffset_up"	"0"
+
+	
+	AmmoMax
+	{
+		"TF_AMMO_SHELLS"	"50"
+		"TF_AMMO_ROCKETS"	"30"
+		"TF_AMMO_CELLS"		"200"
+		"TF_AMMO_NAILS"		"50"
+		"tf_ammo_grenades1"	"4"
+		"tf_ammo_grenades2"	"4"
+	}
+
+	InitAmmo
+	{
+		"TF_AMMO_SHELLS"	"20"
+		"TF_AMMO_ROCKETS"	"0"
+		"TF_AMMO_CELLS"		"150"
+		"TF_AMMO_NAILS"		"25"
+		"tf_ammo_grenades1"	"2"
+		"tf_ammo_grenades2"	"4"
+	}
+
+	// Death Sounds
+	"sound_death"				"Engineer.Death"
+	"sound_crit_death"				"Engineer.CritDeath"
+	"sound_melee_death"			"Engineer.MeleeDeath"
+	"sound_explosion_death"			"Engineer.ExplosionDeath"	
+}

@@ -1,0 +1,8 @@
+ctf_2fort
+cp_gravelpit
+cp_dustbowl
+cp_granary
+cp_well
+tc_hydro
+ctf_well
+cp_badlands

@@ -1,0 +1,59 @@
+//
+// Team Fortress - Demoman Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"demoman"
+	"model"			"models/player/demo.mdl"
+	"model_hwm"		"models/player/hwm/demo.mdl"
+	"model_hands"		"models/weapons/c_models/c_demo_arms.mdl"
+	"localize_name"		"TF_Class_Name_Demoman"
+	"speed_max"		"280"
+	"health_max"		"90"
+	"armor_max"		"120"
+	"armor_type"	"0.6"
+	"init_armor"	"50"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+	"grenade2"		"TF_WEAPON_GRENADE_MIRV_DEMOMAN"
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_BOTTLE"
+	"weapon2"		"TF_WEAPON_SHOTGUN_DEMOMAN"
+	"weapon3"		"TF_WEAPON_GRENADELAUNCHER"
+	"weapon4"		"TF_WEAPON_PIPEBOMBLAUNCHER"
+
+	//Thirdperson
+	"cameraoffset_forward"	"85"
+	"cameraoffset_right"	"25"
+	"cameraoffset_up"	"0"
+
+
+	AmmoMax
+	{
+		"TF_AMMO_SHELLS"	"75"
+		"TF_AMMO_ROCKETS"	"50"
+		"TF_AMMO_CELLS"		"50"
+		"TF_AMMO_NAILS"		"50"
+		"tf_ammo_grenades1"	"4"
+		"tf_ammo_grenades2"	"2"
+	}
+	
+	InitAmmo
+	{
+		"TF_AMMO_SHELLS"	"30"
+		"TF_AMMO_ROCKETS"	"20"
+		"TF_AMMO_CELLS"		"0"
+		"TF_AMMO_NAILS"		"0"
+		"tf_ammo_grenades1"	"2"
+		"tf_ammo_grenades2"	"1"
+	}
+
+	// Death Sounds
+	"sound_death"				"Demoman.Death"
+	"sound_crit_death"				"Demoman.CritDeath"
+	"sound_melee_death"			"Demoman.MeleeDeath"
+	"sound_explosion_death"			"Demoman.ExplosionDeath"		
+}

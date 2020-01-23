@@ -1,0 +1,61 @@
+//
+// Team Fortress - HeavyWeapons Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"heavyweapons"
+	"model"			"models/player/heavy.mdl"
+	"model_hwm"		"models/player/hwm/heavy.mdl"
+	"model_hands"	"models/weapons/c_models/c_heavy_arms.mdl"
+	"localize_name"	"TF_Class_Name_HWGuy"
+	"speed_max"		"230"
+	"health_max"		"100"
+	"armor_max"		"300"
+	"armor_type"		"0.8"
+//	"health_max"		"300"
+//	"armor_max"		"0"
+	"init_armor"	"150"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+	"grenade2"		"TF_WEAPON_GRENADE_MIRV"
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_FISTS"
+	"weapon2"		"TF_WEAPON_SHOTGUN_HWG"
+	"weapon3"		"TF_WEAPON_SUPERSHOTGUN_HWG"
+	"weapon4"		"TF_WEAPON_MINIGUN"
+	
+	//Thirdperson
+	"cameraoffset_forward"	"85"
+	"cameraoffset_right"	"25"
+	"cameraoffset_up"	"0"
+
+
+	AmmoMax
+	{
+		"TF_AMMO_SHELLS"	"200"
+		"TF_AMMO_ROCKETS"	"25"
+		"TF_AMMO_CELLS"		"50"
+		"TF_AMMO_NAILS"		"200"
+		"tf_ammo_grenades1"	"4"
+		"tf_ammo_grenades2"	"2"
+	}	
+
+	InitAmmo
+	{
+		"TF_AMMO_SHELLS"	"200"
+		"TF_AMMO_ROCKETS"	"0"
+		"TF_AMMO_CELLS"		"30"
+		"TF_AMMO_NAILS"		"0"
+		"tf_ammo_grenades1"	"2"
+		"tf_ammo_grenades2"	"1"
+	}	
+
+	// Death Sounds
+	"sound_death"				"Heavy.Death"
+	"sound_crit_death"				"Heavy.CritDeath"
+	"sound_melee_death"			"Heavy.MeleeDeath"
+	"sound_explosion_death"			"Heavy.ExplosionDeath"	
+}

@@ -1,0 +1,60 @@
+//
+// Team Fortress - Sniper Player Class
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"sniper"
+	"model"			"models/player/sniper.mdl"
+	"model_hwm"		"models/player/hwm/sniper.mdl"
+	"model_hands"	"models/weapons/c_models/c_sniper_arms.mdl"
+	"localize_name"	"TF_Class_Name_Sniper"
+	"speed_max"		"300"
+	"health_max"		"90"
+	"armor_max"		"50"
+	"armor_type"	"0.3"
+//	"health_max"		"125"
+//	"armor_max"		"0"
+	"init_armor"	"25"
+
+	// Grenades.
+	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+
+	// Weapons.
+	"weapon1"		"TF_WEAPON_CLUB"
+	"weapon2"		"TF_WEAPON_SNIPERRIFLE"
+	"weapon3"		"TF_WEAPON_AUTORIFLE"
+	"weapon4"		"TF_WEAPON_NAILGUN_SNIPER"
+
+	//Thirdperson
+	"cameraoffset_forward"	"85"
+	"cameraoffset_right"	"25"
+	"cameraoffset_up"	"0"
+
+
+	AmmoMax
+	{
+		"TF_AMMO_SHELLS"	"75"
+		"TF_AMMO_ROCKETS"	"25"
+		"TF_AMMO_CELLS"		"50"
+		"TF_AMMO_NAILS"		"100"
+		"tf_ammo_grenades1"	"4"
+		"tf_ammo_grenades2"	"0"
+	}	
+	
+	InitAmmo
+	{
+		"TF_AMMO_SHELLS"	"60"
+		"TF_AMMO_ROCKETS"	"0"
+		"TF_AMMO_CELLS"		"0"
+		"TF_AMMO_NAILS"		"50"
+		"tf_ammo_grenades1"	"2"
+		"tf_ammo_grenades2"	"0"
+	}
+
+	// Death Sounds
+	"sound_death"				"Sniper.Death"
+	"sound_crit_death"				"Sniper.CritDeath"
+	"sound_melee_death"			"Sniper.MeleeDeath"
+	"sound_explosion_death"			"Sniper.ExplosionDeath"	
+}

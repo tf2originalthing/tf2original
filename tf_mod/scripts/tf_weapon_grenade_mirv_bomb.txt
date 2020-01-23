@@ -1,0 +1,15 @@
+WeaponData
+{
+	// Attributes Base.
+	"printname"		"Mirv Bomb"
+
+	"WeaponType"		"grenade"
+	"Damage"			"140"
+	"DamageRadius"		"60"
+
+	
+	"ExplosionSound"	"Weapon_Grenade_Pipebomb.Explode"
+	"ExplosionEffect"	"ExplosionCore_wall"
+	"ExplosionPlayerEffect"	"ExplosionCore_MidAir"
+	"ExplosionWaterEffect"	"ExplosionCore_MidAir_underwater"
+}

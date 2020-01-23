@@ -1,0 +1,18 @@
+WeaponData
+{
+	// Attributes Base.
+	"printname"		"EMP Grenade"
+
+	"WeaponType"		"grenade"
+	"Damage"			"160"
+	"DamageRadius"		"60"
+	"PrimerTime"		"4"
+	"MaxAmmo"			"4"
+	"BulletsPerShot"	"1"
+	"primary_ammo"		"TF_AMMO_GRENADES1"
+	"AmmoPerShot"		"1"
+	
+	
+	"ExplosionSound"	"Weapon_Grenade_Emp.Explode"
+	
+}
