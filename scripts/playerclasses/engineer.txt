@@ -57,7 +57,7 @@ PlayerClass
 		"TF_AMMO_CELLS"		"150"
 		"TF_AMMO_NAILS"		"25"
 		"tf_ammo_grenades1"	"2"
-		"tf_ammo_grenades2"	"4"
+		"tf_ammo_grenades2"	"2"
 	}
 
 	// Death Sounds

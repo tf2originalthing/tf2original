@@ -48,7 +48,7 @@ PlayerClass
 	InitAmmo
 	{
 		"TF_AMMO_SHELLS"	"50"
-		"TF_AMMO_ROCKETS"	"10"
+		"TF_AMMO_ROCKETS"	"6"
 		"TF_AMMO_CELLS"		"0"
 		"TF_AMMO_NAILS"		"0"
 		"tf_ammo_grenades1"	"2"
