@@ -1500,7 +1500,7 @@ Weapon_Dartgun.Single
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/single_barrel_shoot.wav"
+	"wave"		")weapons/shotgun_shoot.wav"
 }
 // ------------------------------------------------------------------------------------ //
 // SUPER SHOTGUN
@@ -1510,7 +1510,7 @@ Weapon_Dartgun.Single
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/shotgun_shoot.wav"
+	"wave"		")weapons/double_barrel_shoot.wav"
 }
 
 "Weapon_Shotgun.SingleCrit"
