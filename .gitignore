@@ -10,6 +10,7 @@ download/
 downloadlists/
 cache/
 custom/*
+cfg/
 screenshots/
 maps/graphs/
 materials/temp/*
